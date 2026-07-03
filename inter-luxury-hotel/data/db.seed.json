@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "Tesfa Mikael",
+      "email": "admin@inter.com",
+      "password": "admin123",
+      "phone": "+251911000000",
+      "idType": "National ID",
+      "idNumber": "ADM-000001",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "u-demo",
+      "name": "Sara Bekele",
+      "email": "sara@example.com",
+      "password": "sara123",
+      "phone": "+251911223344",
+      "idType": "Passport",
+      "idNumber": "EP1234567",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2025-02-14T10:30:00.000Z"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "r-1",
+      "name": "Shashemene Shared Bed",
+      "type": "Shared Bed (Budget)",
+      "price": 850,
+      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=1200&auto=format&fit=crop",
+      "description": "A clean, budget-friendly shared dormitory bed for the traveler who wants comfort without the frills. Shared bath and communal lounge included.",
+      "available": true,
+      "createdAt": "2025-01-02T08:00:00.000Z"
+    },
+    {
+      "id": "r-2",
+      "name": "The Inter Standard",
+      "type": "Standard Room",
+      "price": 2200,
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1200&auto=format&fit=crop",
+      "description": "Warm, well-appointed and quiet — our Standard Room pairs five-star bedding with a private bath and city views.",
+      "available": true,
+      "createdAt": "2025-01-02T08:05:00.000Z"
+    },
+    {
+      "id": "r-3",
+      "name": "Entoto Deluxe Room",
+      "type": "Deluxe Room",
+      "price": 3600,
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200&auto=format&fit=crop",
+      "description": "Spacious and light-filled, the Deluxe Room adds a lounge nook, a rain shower, and views over Entoto's hills.",
+      "available": true,
+      "createdAt": "2025-01-02T08:10:00.000Z"
+    },
+    {
+      "id": "r-4",
+      "name": "Sheba Luxury Suite",
+      "type": "Luxury Suite",
+      "price": 6200,
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1200&auto=format&fit=crop",
+      "description": "A gold-lit two-room suite with a private balcony, soaking tub, and in-room dining bar. Named for the Queen of Sheba.",
+      "available": true,
+      "createdAt": "2025-01-02T08:15:00.000Z"
+    },
+    {
+      "id": "r-5",
+      "name": "VIP Royal Room",
+      "type": "VIP Royal Room",
+      "price": 11500,
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=1200&auto=format&fit=crop",
+      "description": "Our signature suite: a private butler, panoramic Addis skyline views, a dedicated valet, and hand-finished gold interiors.",
+      "available": true,
+      "createdAt": "2025-01-02T08:20:00.000Z"
+    }
+  ],
+  "menu": [
+    {
+      "id": "m-1",
+      "name": "Ful Medames & Injera",
+      "category": "Breakfast",
+      "price": 320,
+      "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?q=80&w=1200&auto=format&fit=crop",
+      "description": "Slow-cooked fava beans, spiced butter, soft-boiled egg and warm injera.",
+      "createdAt": "2025-01-03T08:00:00.000Z"
+    },
+    {
+      "id": "m-2",
+      "name": "Gold Standard Doro Wat",
+      "category": "Lunch",
+      "price": 680,
+      "image": "https://images.unsplash.com/photo-1604909052743-94e838986d24?q=80&w=1200&auto=format&fit=crop",
+      "description": "Our master chefs' take on the classic — berbere-braised chicken, boiled egg, served with injera.",
+      "createdAt": "2025-01-03T08:05:00.000Z"
+    },
+    {
+      "id": "m-3",
+      "name": "Tibs Flambé",
+      "category": "Dinner",
+      "price": 890,
+      "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=1200&auto=format&fit=crop",
+      "description": "Pan-seared beef tenderloin, rosemary, tableside flame finish, roasted vegetables.",
+      "createdAt": "2025-01-03T08:10:00.000Z"
+    },
+    {
+      "id": "m-4",
+      "name": "Ethiopian Coffee Ceremony",
+      "category": "Drinks",
+      "price": 260,
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop",
+      "description": "Hand-roasted beans, three rounds, served with popcorn and frankincense — tableside.",
+      "createdAt": "2025-01-03T08:15:00.000Z"
+    },
+    {
+      "id": "m-5",
+      "name": "Honey Tej Reduction Cake",
+      "category": "Dessert",
+      "price": 340,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop",
+      "description": "Dark honey-wine cake, spiced crumb, whipped mascarpone.",
+      "createdAt": "2025-01-03T08:20:00.000Z"
+    },
+    {
+      "id": "m-6",
+      "name": "Kitfo Royale",
+      "category": "Dinner",
+      "price": 760,
+      "image": "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?q=80&w=1200&auto=format&fit=crop",
+      "description": "Minced beef, mitmita and niter kibbeh, served warmed or leb leb, with fresh ayib.",
+      "createdAt": "2025-01-03T08:25:00.000Z"
+    }
+  ],
+  "bookings": [],
+  "orders": [],
+  "settings": {
+    "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2000&auto=format&fit=crop"
+  }
+}
